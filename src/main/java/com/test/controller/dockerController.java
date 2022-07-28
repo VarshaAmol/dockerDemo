@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class dockerController {
 
-    @GetMapping(name = "/getDockerData")
+    @GetMapping("/getDockerData")
     public String getDockerData()
     {
         return "Hello I am executing on Docker";
